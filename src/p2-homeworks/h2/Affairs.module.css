@@ -1,0 +1,20 @@
+.list {
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+
+}
+.list .button {
+
+    margin-left: 10px;
+    background-color: rosybrown;
+    border: 1px solid rosybrown;
+    color: aquamarine;
+    font-size: 10px;
+}
+
+.priority {
+    font-size: 9px;
+    margin-left: 5px;
+}
+

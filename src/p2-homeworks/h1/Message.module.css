@@ -1,0 +1,77 @@
+.posts {
+
+    background-color: chartreuse;
+    width: 400px;
+    height: 150px;
+    display: grid;
+
+    grid-template-areas:
+"a m ";
+
+    grid-template-columns: 1fr 5fr;
+}
+
+.avatar {
+    grid-area: a;
+}
+
+.message {
+    grid-area: m;
+}
+
+
+.avatar img {
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+
+
+.messageBlock{
+    position: relative;
+    width: 250px;
+    height: 80px;
+
+    line-height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+
+
+p.messageBlock:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 10px;
+    bottom: -10px;
+    border: 10px solid;
+    border-color: #000 transparent transparent #000;
+}
+
+.messageBlock p:first-child {
+    color: blueviolet;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.messageBlock p:nth-child(2) {
+    color: aquamarine;
+    margin-left: 20px;
+}
+
+.messageBlock p:nth-child(3) {
+    color: darkgreen;
+    text-align: right;
+    margin-right: 45px;
+
+}
+

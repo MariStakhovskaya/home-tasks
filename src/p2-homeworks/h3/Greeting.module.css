@@ -1,0 +1,24 @@
+.wrapper {
+    margin: 20px;
+}
+
+.someClass {
+background-color: green;
+}
+
+.error {
+    border: 1px solid red;
+
+}
+
+.add {
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: darkorange;
+    text-decoration: none;
+}
+
+.total {
+    font-size: 13px;
+}
