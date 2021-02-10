@@ -1,0 +1,16 @@
+.finalPeople {
+   }
+
+.sortButton {
+    display: flex
+}
+
+.peopleList{
+    list-style: circle;
+    color: darkcyan;
+    font-size: 14px;
+}
+
+.age {
+margin-left: 5px;
+}

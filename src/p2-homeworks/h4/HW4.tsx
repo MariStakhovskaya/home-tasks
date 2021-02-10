@@ -35,7 +35,7 @@ function HW4() {
 
                 {/*should work (должно работать)*/}
                 <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
+                    green // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                 >
                     Enter {/*// название кнопки попадёт в children*/}
@@ -53,12 +53,7 @@ function HW4() {
                 <SuperCheckbox checked={checked} onChange={testOnChange}/>
             </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperInputText/>*/}
-            {/*<AlternativeSuperButton/>*/}
-            {/*<AlternativeSuperCheckbox/>*/}
-            <hr/>
+
         </div>
     );
 }
