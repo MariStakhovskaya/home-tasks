@@ -27,10 +27,24 @@ function Clock() {
         // close
     };
 
-    let month = date.toLocaleString('ru', {month: "long"});
+    let month1 = [
+        "января",
+        "февраля",
+        "марта",
+        "апреля",
+        "мая",
+        "июня",
+        "июля",
+        "августа",
+        "сентября",
+        "октября",
+        "ноября",
+        "декабря",
+    ]
+  /*  let month = date.toLocaleString('ru', {month: "long"});*/
 
     const stringTime = date.getHours() + ' : ' + date.getMinutes() + ' : ' + date.getSeconds(); // fix with date
-    const stringDate = date.getDate() + ' ' + (month) + ' ' + date.getFullYear()  // fix with date
+    const stringDate = date.getDate() + ' ' + (month1[date.getMonth()]) + ' ' + date.getFullYear() ; // fix with date
 
     return (
         <div className={s.container}>
