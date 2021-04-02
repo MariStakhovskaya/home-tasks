@@ -25,21 +25,21 @@ function HW10() {
 
     return (
         <div>
-            s
-            <hr/>
             homeworks 10
+            <hr/>
+
 
             {/*should work (должно работать)*/}
             <div className={s.container}>
-            {loading.isLoading
-                ? (
-                    <div className={s.preloader}><img src={preloader}/></div>
-                ) : (
-                    <div>
-                        <SuperButton green onClick={setLoading}>set loading...</SuperButton>
-                    </div>
-                )
-            }
+                {loading.isLoading
+                    ? (
+                        <div className={s.preloader}><img src={preloader}/></div>
+                    ) : (
+                        <div>
+                            <SuperButton green onClick={setLoading}>set loading...</SuperButton>
+                        </div>
+                    )
+                }
             </div>
 
         </div>
