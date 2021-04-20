@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useState} from "react";
+import React from "react";
 import s from "./HW12.module.css";
 import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 import {useDispatch, useSelector} from "react-redux";
