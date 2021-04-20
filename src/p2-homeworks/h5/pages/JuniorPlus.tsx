@@ -1,33 +1,11 @@
 import React from "react";
+import HW12 from "../../h12/HW12";
 
-
-class HW13 extends React.Component {
-    render() {
-        return null;
-    }
-}
-
-class HW14 extends React.Component {
-    render() {
-        return null;
-    }
-}
-
-class HW15 extends React.Component {
-    render() {
-        return null;
-    }
-}
-
-class HW16 extends React.Component {
-    render() {
-        return null;
-    }
-}
 
 function JuniorPlus() {
     return (
         <div>
+            <HW12/>
            {/* <HW13/>
             <HW14/>
             <HW15/>

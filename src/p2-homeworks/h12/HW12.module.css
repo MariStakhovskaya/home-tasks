@@ -6,6 +6,14 @@
     color: aliceblue;
 }
 
+.yellow {
+    background: gold;
+}
+
+.yellow-text {
+    color: darkcyan;
+}
+
 .red {
     background: lightcoral;
 }

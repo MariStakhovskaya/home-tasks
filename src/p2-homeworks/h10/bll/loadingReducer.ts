@@ -22,4 +22,4 @@ export const loadingReducer = (state = initState, action: actionType): LoadingSt
     }
 };
 
-export const loadingAC = (isLoading: boolean): any => ({type: LOADING, isLoading: isLoading} as const); // fix any
+export const loadingAC = (isLoading: boolean) => ({type: LOADING, isLoading: isLoading} as const); // fix any
